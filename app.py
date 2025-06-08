@@ -1,6 +1,6 @@
 # Agent Status Tracker - Flask API
 
-This code tracks PowerShell agents by their hostname and shows their last seen time. Agents that have not been active for over 7 days are removed. Agents seen in the last 2 minutes are considered "connected".
+# This code tracks PowerShell agents by their hostname and shows their last seen time. Agents that have not been active for over 7 days are removed. Agents seen in the last 2 minutes are considered "connected".
 
 ```python
 from flask import Flask, request, jsonify
